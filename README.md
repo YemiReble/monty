@@ -31,7 +31,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 * ```rotr``` Rotate stack. Last element becomes top, Top element becomes second from top.
 * ```stack``` Changes mode to first in first out (the default behavior). Front of queue becomes top of stack.
 * ```queue``` Changes mode to last in first out. Top of stack becomes front of queue.
-
+## Terminal
 ```
 vagrant@ubuntu:~/monty$ cat -e bytecodes/000.m
 push 0$
