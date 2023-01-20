@@ -1,5 +1,7 @@
 # 0x19. C - Stacks, Queues - LIFO, FIFO
 
+Monty is a language that aims to close the gap between scripting and programming languages.
+
 Learning Objectives
 * What do LIFO and FIFO mean
 * What is a stack, and when to use it
