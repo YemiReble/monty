@@ -10,14 +10,14 @@ Learning Objectives
 
 ### Command Required
 
-* ```**push***``` Pushes an integer onto the stack.
-* ```**pall** Prints all integers on the stack, starting at the top..
-* ```**pint**``` Prints the integer at the top of the stack.
+* ```push``` Pushes an integer onto the stack.
+* ```pall``` Prints all integers on the stack, starting at the top..
+* ```pint``` Prints the integer at the top of the stack.
 * ```pop``` Removes top element of stack.
 * ```swap``` Swaps top two elements of the stack.
-* ```**add**``` Add top two elements of the stack, remove them, and push result onto stack.
+* ```add``` Add top two elements of the stack, remove them, and push result onto stack.
 * ```sub``` Subtract top two elements of the stack, remove them, and push result onto stack.
-* ```**div**``` Integer divide top two elements of the stack, remove them, and push result onto stack.
+* ```div``` Integer divide top two elements of the stack, remove them, and push result onto stack.
 * ```mul``` Multiply top two elements of the stack, remove them, and push result onto stack.
 * ```mod``` Integer division remainder top two elements, remove them, push result onto stack.
 * ```pchar``` Print the ascii character based on top integer in stack.
