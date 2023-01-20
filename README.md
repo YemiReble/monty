@@ -8,8 +8,11 @@ Learning Objectives
 * What are the most common use cases of stacks and queues
 * What is the proper way to use global variables
 
+## Usage / Installation
+```
+$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+```
 ### Command Required
-
 * ```push``` Pushes an integer onto the stack.
 * ```pall``` Prints all integers on the stack, starting at the top..
 * ```pint``` Prints the integer at the top of the stack.
@@ -26,3 +29,19 @@ Learning Objectives
 * ```rotr``` Rotate stack. Last element becomes top, Top element becomes second from top.
 * ```stack``` Changes mode to first in first out (the default behavior). Front of queue becomes top of stack.
 * ```queue``` Changes mode to last in first out. Top of stack becomes front of queue.
+
+```
+vagrant@ubuntu:~/monty$ cat -e bytecodes/000.m
+push 0$
+push 1$
+push 2$
+push 3$
+pall$
+push 4$
+push 5$
+push 6$
+pall$
+vagrant@ubuntu:~/monty$
+```
+
+
